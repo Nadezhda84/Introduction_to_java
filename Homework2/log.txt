@@ -1,12 +1,10 @@
-апр 20, 2023 4:40:38 PM Task_2_2 main
-WARNING: Тестовое логирование
-апр 20, 2023 4:40:38 PM Task_2_2 main
+Р°РїСЂ 20, 2023 6:18:47 PM Task_2_2 main
 INFO: Next sort iteration
-апр 20, 2023 4:40:38 PM Task_2_2 main
+Р°РїСЂ 20, 2023 6:18:47 PM Task_2_2 main
 INFO: Next sort iteration
-апр 20, 2023 4:40:38 PM Task_2_2 main
+Р°РїСЂ 20, 2023 6:18:47 PM Task_2_2 main
 INFO: Next sort iteration
-апр 20, 2023 4:40:38 PM Task_2_2 main
+Р°РїСЂ 20, 2023 6:18:47 PM Task_2_2 main
 INFO: Next sort iteration
-апр 20, 2023 4:40:38 PM Task_2_2 main
+Р°РїСЂ 20, 2023 6:18:47 PM Task_2_2 main
 INFO: Sorting completed
