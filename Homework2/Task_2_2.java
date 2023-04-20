@@ -7,19 +7,22 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
+//import java.util.logging.FileHandler.encoding=UTF-8;
+//import java.util.logging.Handler;
+
 
 public class Task_2_2 {
     public static void main(String[] args) throws SecurityException, IOException {
         int[] array = {11, 3, 14, 16, 7};
         boolean isSorted = false;
         int tmp;
-        Logger logger = Logger.getLogger(Task_2_2.class.getName());
+        Logger logger = Logger.getLogger(Task_2_2.class.getName()); 
         //ConsoleHandler ch = new ConsoleHandler();
-        FileHandler fh = new FileHandler("Homework2/log.txt");
-        logger.addHandler(fh);
+        FileHandler fh = new FileHandler("Homework2/log.txt");  
+        fh.setEncoding("UTF-8");      
         SimpleFormatter sFormat = new SimpleFormatter();
         fh.setFormatter(sFormat);
-        logger.log(Level.WARNING, "Тестовое логирование");
+        logger.addHandler(fh);
         while(!isSorted) {
             isSorted = true;
             for (int i = 0; i < array.length-1; i++) {
