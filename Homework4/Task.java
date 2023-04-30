@@ -20,6 +20,41 @@ revert > Ошибка!
 exit -> (Программа завершилась) */
 package Homework4;
 
+import java.util.LinkedList;
+import java.util.Scanner;
+
 public class Task {
-    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите строку (print - для вывода на печать,revert - для удаления предыдущей строки,exit - для завершения): ");
+        LinkedList<String> list = new LinkedList<>();
+        while (true) {
+        String string = sc.nextLine();
+        if (string.equals("exit")) {
+            break;
+        } else 
+            if (string.equals("print")) {
+                if(list.isEmpty()){
+                    System.out.println("Список строк пуст!");
+                } else {
+                    System.out.println(list);
+                }
+            } else 
+                if (string.equals("revert")) {
+                    if(list.isEmpty()){
+                        System.out.println("Список строк пуст!");
+                    } else {
+                        list.removeFirst();
+                        if(list.isEmpty()){
+                            System.out.println("Все строки удалены!");
+                        } else {
+                            System.out.println(list);
+                        }
+                    }
+                } else {
+                    list.addFirst(string);
+                }
+        }
+        sc.close();
+    }
 }
