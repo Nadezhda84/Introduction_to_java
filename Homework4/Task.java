@@ -18,3 +18,8 @@ revert
 print > []
 revert > Ошибка!
 exit -> (Программа завершилась)*/
+package Homework4;
+
+public class Task {
+   
+}
