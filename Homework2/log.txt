@@ -1,0 +1,10 @@
+апр 20, 2023 6:18:47 PM Task_2_2 main
+INFO: Next sort iteration
+апр 20, 2023 6:18:47 PM Task_2_2 main
+INFO: Next sort iteration
+апр 20, 2023 6:18:47 PM Task_2_2 main
+INFO: Next sort iteration
+апр 20, 2023 6:18:47 PM Task_2_2 main
+INFO: Next sort iteration
+апр 20, 2023 6:18:47 PM Task_2_2 main
+INFO: Sorting completed
